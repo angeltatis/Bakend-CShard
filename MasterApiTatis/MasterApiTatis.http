@@ -1,0 +1,6 @@
+@MasterApiTatis_HostAddress = http://localhost:8080
+
+GET {{MasterApiTatis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
