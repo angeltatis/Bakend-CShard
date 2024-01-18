@@ -21,7 +21,7 @@ namespace MasterApiTatis.Controllers
 
         // GET: api/v1/Products
         [HttpGet]
-        public async Task<IEnumerable<Product>> GetProducts()
+        public async Task<IEnumerable<Producto>> GetProducts()
         {
             
             return await _productService.GetAllProductsAsync();
@@ -29,7 +29,7 @@ namespace MasterApiTatis.Controllers
 
         // GET: api/v1/Products/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(string id)
+        public async Task<ActionResult<Producto>> GetProduct(string id)
         {
             var product = await _productService.GetProductAsync(id);
 
@@ -44,7 +44,7 @@ namespace MasterApiTatis.Controllers
         // PUT: api/v1/Products/5
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProduct(string id, Product product)
+        public async Task<IActionResult> PutProduct(string id, Producto product)
         {
             if (id != product.codpro)
             {
@@ -76,7 +76,7 @@ namespace MasterApiTatis.Controllers
         // POST: api/v1/Products
 
         [HttpPost]
-        public async Task<ActionResult<Product>> PostProduct(Product product)
+        public async Task<ActionResult<Producto>> PostProduct(Producto product)
         {
            
             try

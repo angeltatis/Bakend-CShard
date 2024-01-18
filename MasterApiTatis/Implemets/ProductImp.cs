@@ -18,22 +18,22 @@ namespace MasterApiTatis.Implemets
             _productRepository = productRepository;
         }
 
-        public async Task<IEnumerable<Product>> GetAllProductsAsync()
+        public async Task<IEnumerable<Producto>> GetAllProductsAsync()
         {
             return await _productRepository.GetAllProductsAsync();
         }
 
-        public async Task<Product> GetProductAsync(string id)
+        public async Task<Producto> GetProductAsync(string id)
         {
             return await _productRepository.GetProductByIdAsync(id);
         }
 
-        public async Task CreateProductAsync(Product product)
+        public async Task CreateProductAsync(Producto product)
         {
             await _productRepository.AddProductAsync(product);
         }
 
-        public async Task UpdateProductAsync(string id, Product product)
+        public async Task UpdateProductAsync(string id, Producto product)
         {
             if (id != product.codpro)
                 throw new ArgumentException("ID mismatch");

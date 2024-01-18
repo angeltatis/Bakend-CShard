@@ -4,10 +4,10 @@ namespace MasterApiTatis.Services
 {
     public interface IUnidProductService
     {
-        Task<IEnumerable<ProductUnid>> GetAllProductUnidsAsync();
-        Task<ProductUnid> GetProductUnidAsync(int id);
-        Task UpdateProductUnidAsync(int id, ProductUnid productUnid);
-        Task CreateProductUnidAsync(ProductUnid productUnid);
+        Task<IEnumerable<Unidad_producto>> GetAllProductUnidsAsync();
+        Task<Unidad_producto> GetProductUnidAsync(int id);
+        Task UpdateProductUnidAsync(int id, Unidad_producto productUnid);
+        Task CreateProductUnidAsync(Unidad_producto productUnid);
         Task ToggleProductUnidStatusAsync(int id);
     }
 }

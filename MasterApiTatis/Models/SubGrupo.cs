@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MasterApiTatis.Models
 {
-    [Table("subgrup")]
+    [Table("subgrupo_producto")]
     public class  SubGrupo
     {
         [Key]

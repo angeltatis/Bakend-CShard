@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MasterApiTatis.Models
 {
-    [Table("depar")]
+    [Table("departamento")]
     public class Departamento
     {
         [Key]

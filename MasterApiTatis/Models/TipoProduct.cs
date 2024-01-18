@@ -5,13 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace MasterApiTatis.Models
 {
 
-    /*Entidad de tipo de productos para la configuracion del mismo producto 
-      nombre de la tabla: tippro
-      primari ke: codtippro
-      lleva su descripcion 
-      estado: por defecto activo 
-     */
-    [Table("tippro")]
+    [Table("tipo_producto")]
     public class TipoProduct
     {
         [Key]

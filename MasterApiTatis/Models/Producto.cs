@@ -6,8 +6,8 @@ namespace MasterApiTatis.Models
 {
 
 
-    [Table("prod")]
-    public class Product
+    [Table("producto")]
+    public class Producto
     {
         [Key]
         [MaxLength(15)]

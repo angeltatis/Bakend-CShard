@@ -7,7 +7,7 @@ namespace MasterApiTatis.Models
     //entidad de grupos
   
 
-    [Table("grup")] //nombre de la tabla 
+    [Table("grupo")] //nombre de la tabla 
     public class Grupo
     {
         [Key] //indetificamos el  primari key 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qh7ORJZuAvpdd7Bzf071pVAxKv3w6eURMkxBxuQAkw/1Z6fsQbgNukRQRW84LMJyvb/Qt2ganOx1e4czx+t4AQ==",
+  "dgSpecHash": "ofI0rOTIj4VPW+bChl7yylPIGcUQ2cNFJIO7BozgvLLo1Vx8gMMNZpFWgzZNzVvoARLAW3dDs5ROp+1/4QLlag==",
   "success": true,
-  "projectFilePath": "C:\\C# proyectos\\Api\\MasterApiTatis\\appi-mastersoftatis\\MasterApiTatis\\MasterApiTatis.csproj",
+  "projectFilePath": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\MasterApiTatis\\MasterApiTatis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Netbackupsbr\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Netbackupsbr\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

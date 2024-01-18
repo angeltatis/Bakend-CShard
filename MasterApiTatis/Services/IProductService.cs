@@ -4,10 +4,10 @@ namespace MasterApiTatis.Services
 {
     public interface IProductService
     {
-        Task<IEnumerable<Product>> GetAllProductsAsync();
-        Task<Product> GetProductAsync(string id);
-        Task CreateProductAsync(Product product);
-        Task UpdateProductAsync(string id, Product product);
+        Task<IEnumerable<Producto>> GetAllProductsAsync();
+        Task<Producto> GetProductAsync(string id);
+        Task CreateProductAsync(Producto product);
+        Task UpdateProductAsync(string id, Producto product);
         Task ToggleProductStatusAsync(string id);
         Task<bool> ProductExistsAsync(string id);
     }

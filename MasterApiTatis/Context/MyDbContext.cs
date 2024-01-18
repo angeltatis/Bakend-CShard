@@ -13,9 +13,9 @@ namespace MasterApiTatis.Context
 
         }
 
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Unid> Unids { get; set; }
-        public DbSet<ProductUnid> ProductUnids { get; set; }
+        public DbSet<Producto> Products { get; set; }
+        public DbSet<Unidad> Unids { get; set; }
+        public DbSet<Unidad_producto> ProductUnids { get; set; }
         public DbSet<Departamento> departamentos { get; set; }
         public DbSet<Grupo> grupos { get; set; }
         public DbSet<SubGrupo> subGrupos { get; set; }

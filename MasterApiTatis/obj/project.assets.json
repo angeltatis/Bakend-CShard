@@ -8425,11 +8425,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C# proyectos\\Api\\MasterApiTatis\\appi-mastersoftatis\\MasterApiTatis\\MasterApiTatis.csproj",
+      "projectUniqueName": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\MasterApiTatis\\MasterApiTatis.csproj",
       "projectName": "MasterApiTatis",
-      "projectPath": "C:\\C# proyectos\\Api\\MasterApiTatis\\appi-mastersoftatis\\MasterApiTatis\\MasterApiTatis.csproj",
+      "projectPath": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\MasterApiTatis\\MasterApiTatis.csproj",
       "packagesPath": "C:\\Users\\Netbackupsbr\\.nuget\\packages\\",
-      "outputPath": "C:\\C# proyectos\\Api\\MasterApiTatis\\appi-mastersoftatis\\MasterApiTatis\\obj\\",
+      "outputPath": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\MasterApiTatis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Netbackupsbr\\AppData\\Roaming\\NuGet\\NuGet.Config",

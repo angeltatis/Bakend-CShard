@@ -5,8 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace MasterApiTatis.Models
 {
 
-    [Table("uni")]
-    public class Unid
+    [Table("unidad")]
+    public class Unidad
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

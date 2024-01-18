@@ -18,7 +18,7 @@ namespace MasterApiTatis.Repository
         }
 
         //crear unidad
-        public async Task AddUnidAsync(Unid unid)
+        public async Task AddUnidAsync(Unidad unid)
         {
             _context.Unids.AddAsync(unid);
             await _context.SaveChangesAsync();
@@ -26,13 +26,13 @@ namespace MasterApiTatis.Repository
 
 
         //obtener unidades
-        public async Task<IEnumerable<Unid>> GetAllUnidsAsync()
+        public async Task<IEnumerable<Unidad>> GetAllUnidsAsync()
         {
             return await _context.Unids.ToListAsync();
         }
 
         //obtener unidad porsu id con el timpo  agrgar mas  
-        public async Task<Unid> GetUnidByIdAsync(int id)
+        public async Task<Unidad> GetUnidByIdAsync(int id)
         {
             return await _context.Unids.FindAsync(id);
         }
@@ -45,7 +45,7 @@ namespace MasterApiTatis.Repository
             return await _context.Unids.AnyAsync(e => e.coduni == id);
         }
 
-        public async Task UpdateUnidAsync(Unid unid)
+        public async Task UpdateUnidAsync(Unidad unid)
         {
             _context.Entry(unid).State = EntityState.Modified;
             await _context.SaveChangesAsync();

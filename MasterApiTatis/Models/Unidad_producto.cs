@@ -4,8 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MasterApiTatis.Models
 {
-    [Table("uni_pro")]
-    public class ProductUnid
+    [Table("unidad_producto")]
+    public class Unidad_producto
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -17,7 +17,7 @@ namespace MasterApiTatis.Models
         public string codpro { get; set; }
 
         [ForeignKey("codpro")]
-        public Product product { get; set; }
+        public Producto product { get; set; }
 
         [Required(ErrorMessage = "El código de la unidad es obligatorio.")]
         [ForeignKey("coduni")]

@@ -18,26 +18,26 @@ namespace MasterApiTatis.Repository
         }
 
         //Obtener todos Los productos 
-        public async Task<IEnumerable<Product>> GetAllProductsAsync()
+        public async Task<IEnumerable<Producto>> GetAllProductsAsync()
         {
             return await _context.Products.ToListAsync();
         }
 
         //Obtener producto por codigo
-        public async Task<Product> GetProductByIdAsync(string id)
+        public async Task<Producto> GetProductByIdAsync(string id)
         {
             return await _context.Products.FindAsync(id);
         }
 
         //agregar productos a las base de datos 
-        public async Task AddProductAsync(Product product)
+        public async Task AddProductAsync(Producto product)
         {
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
         }
 
         //actuizar productos existentes 
-        public async Task UpdateProductAsync(Product product)
+        public async Task UpdateProductAsync(Producto product)
         {
             _context.Entry(product).State = EntityState.Modified;
             await _context.SaveChangesAsync();

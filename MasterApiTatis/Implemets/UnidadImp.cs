@@ -13,7 +13,7 @@ namespace MasterApiTatis.Implemets
             _unidadRepository = unidadRepository;
         }
 
-        public async Task AddUnidAsync(Unid unid)
+        public async Task AddUnidAsync(Unidad unid)
         {
            await _unidadRepository.AddUnidAsync(unid);
         }
@@ -31,12 +31,12 @@ namespace MasterApiTatis.Implemets
             await _unidadRepository.UpdateUnidAsync(unid);
         }
 
-        public async  Task<IEnumerable<Unid>> GetAllUnidsAsync()
+        public async  Task<IEnumerable<Unidad>> GetAllUnidsAsync()
         {
             return await _unidadRepository.GetAllUnidsAsync();
         }
 
-        public async Task<Unid> GetUnidByIdAsync(int id)
+        public async Task<Unidad> GetUnidByIdAsync(int id)
         {
            return  await _unidadRepository.GetUnidByIdAsync(id);
         }
@@ -46,7 +46,7 @@ namespace MasterApiTatis.Implemets
             return await _unidadRepository.UnidExistsAsync(id);
         }
 
-        public async Task UpdateUnidAsync(int id, Unid unid)
+        public async Task UpdateUnidAsync(int id, Unidad unid)
         {
             if (id != unid.coduni)
                 throw new ArgumentException("Id mismathc");

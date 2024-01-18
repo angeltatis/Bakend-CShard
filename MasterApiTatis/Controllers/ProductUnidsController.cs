@@ -18,14 +18,14 @@ namespace MasterApiTatis.Controllers
 
         // GET: api/v1/ProductUnids
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductUnid>>> GetProductUnids()
+        public async Task<ActionResult<IEnumerable<Unidad_producto>>> GetProductUnids()
         {
             return Ok(await _productUnidService.GetAllProductUnidsAsync());
         }
 
         // GET: api/v1/ProductUnids/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<ProductUnid>> GetProductUnid(int id)
+        public async Task<ActionResult<Unidad_producto>> GetProductUnid(int id)
         {
             var productUnid = await _productUnidService.GetProductUnidAsync(id);
             if (productUnid == null)
@@ -37,7 +37,7 @@ namespace MasterApiTatis.Controllers
 
         // PUT: api/v1/ProductUnids/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProductUnid(int id, ProductUnid productUnid)
+        public async Task<IActionResult> PutProductUnid(int id, Unidad_producto productUnid)
         {
             if (id != productUnid.codunipro)
             {
@@ -63,7 +63,7 @@ namespace MasterApiTatis.Controllers
         // POST: api/v1/ProductUnids
         // POST: api/v1/ProductUnids
         [HttpPost]
-        public async Task<IActionResult> PostMultipleProductUnids([FromBody] List<ProductUnid> productUnids)
+        public async Task<IActionResult> PostMultipleProductUnids([FromBody] List<Unidad_producto> productUnids)
         {
             if (productUnids == null || !ModelState.IsValid)
             {

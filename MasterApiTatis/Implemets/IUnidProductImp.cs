@@ -18,20 +18,20 @@ namespace MasterApiTatis.Implemets
         }
 
         // Crea un nuevo 'ProductUnid' de forma asíncrona.
-        public async Task CreateProductUnidAsync(ProductUnid productUnid)
+        public async Task CreateProductUnidAsync(Unidad_producto productUnid)
         {
             _unidProductRepository.Add(productUnid);
             await _unidProductRepository.SaveAsync();
         }
 
         // Obtiene todos los 'ProductUnid' de forma asíncrona.
-        public async Task<IEnumerable<ProductUnid>> GetAllProductUnidsAsync()
+        public async Task<IEnumerable<Unidad_producto>> GetAllProductUnidsAsync()
         {
             return await _unidProductRepository.GetAllAsync();
         }
 
         // Obtiene un 'ProductUnid' por su ID de forma asíncrona.
-        public async Task<ProductUnid> GetProductUnidAsync(int id)
+        public async Task<Unidad_producto> GetProductUnidAsync(int id)
         {
             return await _unidProductRepository.GetByIdAsync(id);
         }
@@ -49,7 +49,7 @@ namespace MasterApiTatis.Implemets
         }
 
         // Actualiza un 'ProductUnid' existente basado en su ID de forma asíncrona.
-        public async Task UpdateProductUnidAsync(int id, ProductUnid productUnid)
+        public async Task UpdateProductUnidAsync(int id, Unidad_producto productUnid)
         {
             if (id != productUnid.codunipro)
             {

@@ -18,13 +18,13 @@ namespace MasterApiTatis.Repository
         }
 
         // Método asíncrono para obtener todos los ProductUnid de la base de datos.
-        public async Task<IEnumerable<ProductUnid>> GetAllAsync()
+        public async Task<IEnumerable<Unidad_producto>> GetAllAsync()
         {
             return await _context.ProductUnids.ToListAsync();
         }
 
         // Método asíncrono para obtener un ProductUnid por su ID.
-        public async Task<ProductUnid> GetByIdAsync(int id)
+        public async Task<Unidad_producto> GetByIdAsync(int id)
         {
             var productUnid = await _context.ProductUnids.FindAsync(id);
             if (productUnid == null)
@@ -36,21 +36,21 @@ namespace MasterApiTatis.Repository
         }
 
         // Método para agregar un nuevo ProductUnid al contexto (prepararlo para ser insertado en la base de datos).
-        public void Add(ProductUnid productUnid)
+        public void Add(Unidad_producto productUnid)
         {
             if (productUnid == null) throw new ArgumentNullException(nameof(productUnid));
             _context.ProductUnids.Add(productUnid);
         }
 
         // Método para marcar un ProductUnid existente como modificado.
-        public void Update(ProductUnid productUnid)
+        public void Update(Unidad_producto productUnid)
         {
             if (productUnid == null) throw new ArgumentNullException(nameof(productUnid));
             _context.Entry(productUnid).State = EntityState.Modified;
         }
 
         // Método para cambiar el estado de un ProductUnid.
-        public void ChangeStatus(ProductUnid productUnid, bool newState)
+        public void ChangeStatus(Unidad_producto productUnid, bool newState)
         {
             if (productUnid == null) throw new ArgumentNullException(nameof(productUnid));
             productUnid.estado = newState;

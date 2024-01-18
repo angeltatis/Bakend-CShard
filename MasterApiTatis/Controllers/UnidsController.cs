@@ -18,14 +18,14 @@ namespace MasterApiTatis.Controllers
 
         // GET: api/v1/Unids
         [HttpGet]
-        public async Task<IEnumerable<Unid>> GetUnids()
+        public async Task<IEnumerable<Unidad>> GetUnids()
         {
            return await _unidadService.GetAllUnidsAsync();
         }
 
         // GET: api/Unids/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Unid>> GetUnid(int id)
+        public async Task<ActionResult<Unidad>> GetUnid(int id)
         {
             var unid = await _unidadService.GetUnidByIdAsync(id);
 
@@ -39,7 +39,7 @@ namespace MasterApiTatis.Controllers
 
         // PUT: api/v1/Unids/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUnid(int id, Unid unid)
+        public async Task<IActionResult> PutUnid(int id, Unidad unid)
         {
             if (id != unid.coduni)
             {
@@ -73,7 +73,7 @@ namespace MasterApiTatis.Controllers
         // POST: api/Unids
         
         [HttpPost]
-        public async Task<ActionResult<Unid>> PostUnid(Unid unid)
+        public async Task<ActionResult<Unidad>> PostUnid(Unidad unid)
         {
           
 

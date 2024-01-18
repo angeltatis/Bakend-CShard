@@ -7,10 +7,10 @@ namespace MasterApiTatis.Interface
         //intefas  con todos los metodo para interactuar 
         //con el repositorio ose alogica de nefocio 
 
-        Task<IEnumerable<Unid>> GetAllUnidsAsync();
-        Task<Unid> GetUnidByIdAsync(int id);
-        Task AddUnidAsync(Unid unid);
-        Task UpdateUnidAsync(Unid unid);
+        Task<IEnumerable<Unidad>> GetAllUnidsAsync();
+        Task<Unidad> GetUnidByIdAsync(int id);
+        Task AddUnidAsync(Unidad unid);
+        Task UpdateUnidAsync(Unidad unid);
         Task<bool> UnidExistsAsync(int id);
     }
 }

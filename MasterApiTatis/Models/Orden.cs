@@ -5,8 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MasterApiTatis.Models
 {
-    [Table("ordcom")]
-    public class OrdenCompra
+    [Table("orden")]
+    public class Orden
     {
         [Key]
         public int  Id { get; set; }
