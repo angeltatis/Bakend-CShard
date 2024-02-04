@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+﻿
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -9,44 +8,39 @@ namespace MasterApiTatis.Models
     public class Orden
     {
         [Key]
-        public int  Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Codord { get; set; }
 
-        [Column("numord")]
+        public int Codmon { get; set; }
 
-    /*    se configura en api afluent 
-        modelBuilder.Entity<Blog>()
-       .HasIndex(b => b.Url)
-        .IsUnique();
-        [Index(IsUnique = true)]*/
+        public int Codcon { get; set; }
 
+        public int Codsup { get; set; }
 
+        [Required]
+        public DateTime Fecpro { get; set; }
 
-        public required string  numorde { get; set; }
+        [Required]
+        public DateTime Fecfin { get; set; }
 
-        [ForeignKey("codmon")]
-        [Column ("codsup")]
-        public required int codsupl { get; set; }
+        [Required]
+        public decimal Itebis { get; set; }
 
-        [ForeignKey ("codmon")]
-        [Column("codmone")]
-        public required int codmone { get; set; }
-        [ForeignKey("codcondi")]
-        [Column("codcondi")]
-        public required int codcondi { get; set; }
+        [Required]
+        public decimal Total { get; set; }
 
-        [Column ("fecini")]        
-        public required DateTime fecini { get; set; }
+        public bool Estado { get; set; } = true;
 
+        public List<OrdenD> Detalles { get; set; }
 
-        [Column("fecent")]
-        public required DateTime fecent { get; set; }
+        // Relaciones
+        [ForeignKey("Codmon")]
+        public Moneda Moneda { get; set; }
 
-        [Column("notped")]
-        public string notped { get; set; }
+        [ForeignKey("Codcon")]
+        public Condicion Condicion { get; set; }
 
-        [Column ("estado")]
-        public required bool  estado { get; set; } = true;
-
-//prueba
+        [ForeignKey("Codsup")]
+        public Suplidor Suplidor { get; set; }
     }
 }

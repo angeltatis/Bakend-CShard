@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FbkEc3Hjurn4JWnfVUc/uoMmiwvgf143ksuWO7/HpS8=",
+  "Hash": "MIb5dJUgZ2dr2AlqfMEQY25XwX6Ne0QkeJg/wrIBwXM=",
   "Source": "MasterApiTatis",
   "BasePath": "_content/MasterApiTatis",
   "Mode": "Default",
@@ -8,25 +8,6 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": [
-    {
-      "Identity": "C:\\C# proyectos\\Api\\MasterApiTatis\\appi-mastersoftatis\\MasterApiTatis\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MasterApiTatis.styles.css",
-      "SourceId": "MasterApiTatis",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\C# proyectos\\Api\\MasterApiTatis\\appi-mastersoftatis\\MasterApiTatis\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/MasterApiTatis",
-      "RelativePath": "MasterApiTatis.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\C# proyectos\\Api\\MasterApiTatis\\appi-mastersoftatis\\MasterApiTatis\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MasterApiTatis.styles.css"
-    },
     {
       "Identity": "C:\\Users\\Netbackupsbr\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
@@ -64,6 +45,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Netbackupsbr\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\MasterApiTatis\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MasterApiTatis.styles.css",
+      "SourceId": "MasterApiTatis",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\MasterApiTatis\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/MasterApiTatis",
+      "RelativePath": "MasterApiTatis.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\MasterApiTatis\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MasterApiTatis.styles.css"
     }
   ]
 }
