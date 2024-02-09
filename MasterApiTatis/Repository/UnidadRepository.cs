@@ -24,6 +24,11 @@ namespace MasterApiTatis.Repository
             await _context.SaveChangesAsync();
         }
 
+        public async Task<bool> ExisteUnidadCondescripcion(string desuni)
+        {
+            return await _context.Unids.AnyAsync(d => d.desuni == desuni);
+        }
+
 
         //obtener unidades
         public async Task<IEnumerable<Unidad>> GetAllUnidsAsync()

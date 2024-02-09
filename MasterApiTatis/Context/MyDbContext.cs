@@ -24,11 +24,12 @@ namespace MasterApiTatis.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            //constraing
+            modelBuilder.Entity<SubGrupo>().HasIndex(sbg => sbg.dessubgrup).IsUnique(true);
+            modelBuilder.Entity<TipoProduct>().HasIndex(tip => tip.destippro).IsUnique(true);
+            modelBuilder.Entity<Grupo>().HasIndex(sbg => sbg.desgrup).IsUnique(true);
+            modelBuilder.Entity<Departamento>().HasIndex(dep => dep.desdep).IsUnique(true);
 
-            // Configurar el esquema predeterminado (si es necesario)
-            // modelBuilder.HasDefaultSchema("miEsquema");
-
-            // Aplicar configuraciones de entidades desde el ensamblado
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
 

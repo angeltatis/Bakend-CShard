@@ -12,5 +12,6 @@ namespace MasterApiTatis.Interface
         Task AddUnidAsync(Unidad unid);
         Task UpdateUnidAsync(Unidad unid);
         Task<bool> UnidExistsAsync(int id);
+        Task<bool> ExisteUnidadCondescripcion(string desuni);
     }
 }

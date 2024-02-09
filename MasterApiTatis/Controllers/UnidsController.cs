@@ -66,7 +66,8 @@ namespace MasterApiTatis.Controllers
                 return StatusCode(StatusCodes.Status409Conflict);
             }
 
-            return NoContent();
+           // return NoContent();
+            return CreatedAtAction("GetUnid", new { id = unid.coduni }, unid);
         }
 
 
@@ -76,9 +77,14 @@ namespace MasterApiTatis.Controllers
         public async Task<ActionResult<Unidad>> PostUnid(Unidad unid)
         {
           
-
             try
             {
+                bool existe = await _unidadService.ExisteConDescripcion(unid.desuni); 
+                if (existe)
+                {
+                    return BadRequest($"La Unidad Existe: {unid.desuni}");
+
+                }
                 await _unidadService.AddUnidAsync(unid);
             }
             catch (DbUpdateException)

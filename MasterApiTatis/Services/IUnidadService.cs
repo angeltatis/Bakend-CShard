@@ -10,5 +10,6 @@ namespace MasterApiTatis.Services
         Task UpdateUnidAsync(int id, Unidad unid);
         Task desactivarUnidAsync(int id);
         Task<bool> UnidExistsAsync(int id);
+        Task<bool> ExisteConDescripcion(string desuni);
     }
 }

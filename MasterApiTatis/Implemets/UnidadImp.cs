@@ -31,6 +31,11 @@ namespace MasterApiTatis.Implemets
             await _unidadRepository.UpdateUnidAsync(unid);
         }
 
+        public async Task<bool> ExisteConDescripcion(string desuni)
+        {
+           return await _unidadRepository.ExisteUnidadCondescripcion(desuni);
+        }
+
         public async  Task<IEnumerable<Unidad>> GetAllUnidsAsync()
         {
             return await _unidadRepository.GetAllUnidsAsync();
