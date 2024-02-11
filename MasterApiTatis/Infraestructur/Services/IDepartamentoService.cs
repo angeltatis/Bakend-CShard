@@ -1,15 +1,14 @@
-﻿using MasterApiTatis.Application.DTOs;
-using MasterApiTatis.Domain.Models;
+﻿using MasterApiTatis.Domain.Models;
 
 namespace MasterApiTatis.Infraestructur.Services
 {
     public interface IDepartamentoService
     {
 
-        Task<IEnumerable<DepartamentoDTO>> GetAllDepartamentosAsync();
-        Task<DepartamentoDTO> GetDepartamentoAsync(int id);
-        Task UpdateDepartamentoAsync(int id, DepartamentoDTO departamento);
-        Task CreateDepartamentoAsync(DepartamentoDTO departamento);
+        Task<IEnumerable<Departamento>> GetAllDepartamentosAsync();
+        Task<Departamento> GetDepartamentoAsync(int id);
+        Task UpdateDepartamentoAsync(int id, Departamento departamento);
+        Task CreateDepartamentoAsync(Departamento departamento);
         Task<bool> ExistDepartamento(int id);
         Task ToggleDepartamentoStatusAsync(int id);
     }

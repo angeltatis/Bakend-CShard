@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterApiTatis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+332e7f78877e13744647c1e2ddf5ce7c03890ff1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03219d7689bd0a5d404725cbb0e09961a9e9b144")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterApiTatis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterApiTatis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
