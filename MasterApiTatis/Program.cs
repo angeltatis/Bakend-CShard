@@ -1,5 +1,5 @@
-using MasterApiTatis.Context;
-using MasterApiTatis.Services;
+using MasterApiTatis.Infraestructur.Context;
+using MasterApiTatis.Infraestructur.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
@@ -45,7 +45,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("AllowAll");
+//app.UseCors("AllowAll");
 app.UseRouting();
 
 // Descomentar si estás utilizando autenticación
