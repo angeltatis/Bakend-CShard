@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/MG4iyuM3mLmt6kXM959n002vt0VyoQQy0kiFhxLHw+r0KHDZbLSTnl8V5Zkxc9IS0SbYUd6csHjkLPMCNiFdQ==",
+  "dgSpecHash": "sv/esncfwj+b9RPtCsHCWk9SXe1hfX2VAqG2+8S97/MhM4ksbf4SHlpa+zd6M7bJZDAEnrCiq90TOScoPskNvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\MasterApiTatis\\MasterApiTatis.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,8 @@
     "C:\\Users\\Netbackupsbr\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\Netbackupsbr\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\Netbackupsbr\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\Netbackupsbr\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Netbackupsbr\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Netbackupsbr\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\Netbackupsbr\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
     "C:\\Users\\Netbackupsbr\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0\\microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",

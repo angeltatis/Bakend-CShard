@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RcBLeInSGDXyA2Z+g703gSX/ODBIYKyq/bcqTJ9V7bTU+Zp/XovH1HUrKrZwsY+uGf2T9viqtr/3VdeN9HU7GA==",
+  "dgSpecHash": "h2RcqFOVsKXk2H855CUaHwbDaNMy91rhd/GT3w+maickmQxTOKMccl1SCHhvdb4/xRKXt6NXJi+QF7FfgMxQVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Netbackupsbr\\Desktop\\Bakend-CShard\\Infrastructure\\Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Netbackupsbr\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Netbackupsbr\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Netbackupsbr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
