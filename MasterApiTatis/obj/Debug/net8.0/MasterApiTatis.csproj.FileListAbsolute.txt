@@ -765,3 +765,9 @@ C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\obj\Debug\net8.0\refi
 C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\obj\Debug\net8.0\MasterApiTatis.pdb
 C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\obj\Debug\net8.0\MasterApiTatis.genruntimeconfig.cache
 C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\obj\Debug\net8.0\ref\MasterApiTatis.dll
+C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\bin\Debug\net8.0\Application.dll
+C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\bin\Debug\net8.0\Domain.dll
+C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\bin\Debug\net8.0\Application.pdb
+C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Netbackupsbr\Desktop\Bakend-CShard\MasterApiTatis\bin\Debug\net8.0\Domain.pdb

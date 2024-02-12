@@ -1,6 +1,6 @@
-﻿using MasterApiTatis.Application.Interface;
+﻿using MasterApiTatis.Application.Funciones;
+using MasterApiTatis.Application.Interface;
 using MasterApiTatis.Domain.Models;
-using MasterApiTatis.Funciones;
 using MasterApiTatis.Infraestructur.Services;
 using Microsoft.Data.SqlClient;
 

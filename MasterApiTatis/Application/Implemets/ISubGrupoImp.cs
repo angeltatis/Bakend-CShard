@@ -1,8 +1,8 @@
 ﻿using Microsoft.Data.SqlClient;
-using MasterApiTatis.Funciones;
 using MasterApiTatis.Domain.Models;
 using MasterApiTatis.Application.Interface;
 using MasterApiTatis.Infraestructur.Services;
+using MasterApiTatis.Application.Funciones;
 
 namespace MasterApiTatis.Application.Implemets
 {

@@ -1,7 +1,7 @@
 ﻿using MasterApiTatis.Application.Interface;
 using MasterApiTatis.Domain.Models;
 using MasterApiTatis.Infraestructur.Services;
-using MasterApiTatis.Repository;
+
 
 namespace MasterApiTatis.Application.Implemets
 {
